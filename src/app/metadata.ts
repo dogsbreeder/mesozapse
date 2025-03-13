@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const defaultMetadata: Metadata = {
+  metadataBase: new URL('https://mesozapse.rs'),
   title: 'Meso za Pse Beograd - Kvalitetno Sirovo Meso za Pse',
   description: 'Kvalitetno sirovo meso za pse u Beogradu dostupno u pakovanju od 10kg. Besplatna dostava za porudžbine preko 50kg na teritoriji Beograda. Prirodna sirova ishrana za vašeg ljubimca.',
   keywords: 'meso za pse beograd, sirovo meso za pse, barf ishrana, dostava mesa za pse, prirodna hrana za pse, pilece meso za pse, junetina za pse, umka meso za pse, kvalitetno meso za pse',
