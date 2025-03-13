@@ -5,9 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  metadata: {
-    metadataBase: new URL('https://mesozapse.pages.dev'),
-  },
 }
 
 module.exports = nextConfig 
