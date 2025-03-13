@@ -4,13 +4,8 @@ const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'mesozapse.pages.dev',
-      },
-    ],
   },
+  trailingSlash: true,
 }
 
 module.exports = nextConfig 

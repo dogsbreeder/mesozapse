@@ -58,6 +58,12 @@ const products = {
   }
 };
 
+export function generateStaticParams() {
+  return Object.keys(products).map((slug) => ({
+    slug,
+  }));
+}
+
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const product = products[params.slug as keyof typeof products];
   if (!product) return {};
